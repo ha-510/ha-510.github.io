@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Research | Hammad Abdullah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a href="../index.html" class="nav-name">Hammad Abdullah</a>
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="index.html">Research</a>
+        <a href="../cv.pdf" target="_blank">CV</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-inner">
+      <p class="eyebrow">Research Portfolio</p>
+      <h1>Research Projects</h1>
+      <p class="tagline">
+        Observational astronomy, absorption-line spectroscopy, and computational modeling.
+      </p>
+      <p class="sub">
+        My research experience currently spans two major projects: an ongoing ALMA CO absorption-line
+        survey of active galaxies and a completed computational geodynamics study of tungsten-182 isotopic
+        anomalies in mantle-derived rocks.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>ALMA CO Absorption in Active Galaxies</h3>
+          <p class="meta">
+            Brigham Young University · Advisor: Dr. Benjamin Boizelle · Summer 2025–Present
+          </p>
+          <p>
+            Archival ALMA study of carbon monoxide absorption lines against bright radio cores in active
+            galaxies. This project uses spectral extraction, continuum fitting, Gaussian modeling, and
+            molecular column-density estimates to characterize cold gas near AGN. The project is continuing
+            as my senior honors thesis.
+          </p>
+          <a class="button-link" href="alma-absorption.html">Open Project Page</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Tungsten-182 Isotopic Anomalies and Mantle Dynamics</h3>
+          <p class="meta">
+            Rutgers University · Advisors: Prof. Katherine Bermingham and Prof. Charles-Édouard Boukaré · Jun 2024–May 2025
+          </p>
+          <p>
+            Computational project investigating the origin of tungsten-182 isotopic anomalies using
+            geodynamic simulations, Fortran source-code modification, HPC clusters, and Python-based
+            analysis of mantle evolution scenarios.
+          </p>
+          <a class="button-link" href="tungsten-182.html">Open Project Page</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Hammad Abdullah</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
