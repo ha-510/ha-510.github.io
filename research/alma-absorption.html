@@ -15,7 +15,6 @@
       <div class="nav-links">
         <a href="../index.html">Home</a>
         <a href="index.html">Research</a>
-        <a href="tools.html">Tools</a>
         <a href="../cv.pdf" target="_blank">CV</a>
         <a href="../index.html#contact">Contact</a>
       </div>
@@ -34,7 +33,7 @@
     <section class="snapshot-grid" aria-label="Project snapshot">
       <div class="snapshot-card">
         <span>Status</span>
-        <strong>Ongoing honors thesis</strong>
+        <strong>Expanding sample size.</strong>
       </div>
       <div class="snapshot-card">
         <span>Advisor</span>
@@ -46,7 +45,7 @@
       </div>
       <div class="snapshot-card">
         <span>Core output</span>
-        <strong>CO and H<sub>2</sub> gas constraints</strong>
+        <strong>CO/H<sub>2</sub> molecular gas constraints</strong>
       </div>
     </section>
 
@@ -55,12 +54,16 @@
       <h2>Cold gas seen in absorption against active nuclei.</h2>
       <p>
         This project uses archival ALMA observations to search for carbon monoxide absorption lines against compact radio
-        cores in active galaxies. These absorption features trace cold molecular gas along the line of sight and can reveal
-        the kinematics, column densities, excitation conditions, and structure of gas near active galactic nuclei.
+        cores in active galaxies. With emphasis on weak and narrow absorption features, including components
+       with velocity dispersions &sigma;<sub>v</sub> &lt; 10 km s<sup>-1</sup>, that may be missed
+        in higher-binned observations. Regardless, these features trace cold molecular gas along the line of sight and can reveal
+        the kinematics, column densities, excitation conditions, and structure of gas in AGN environments.
       </p>
       <p>
         I began this work as an NSF REU research intern at Brigham Young University under the mentorship of Dr. Benjamin
-        Boizelle. The project is continuing as the basis of my senior honors thesis at Rutgers University.
+        Boizelle during the summer of 2025. After completion of the program, we continued working together throughout my senior year,
+        which resulted in an honors thesis report. Currently, we are increasing our sample size further to uncover more of the
+        fainter CO absorption features.
       </p>
     </section>
 
@@ -68,9 +71,10 @@
       <p class="section-kicker">My role</p>
       <h2>Independent analysis with weekly faculty mentorship.</h2>
       <p>
-        I carried out the core analysis for this project, including archival data inspection, CASA imaging, spectral extraction,
-        continuum normalization, Gaussian absorption-line fitting, uncertainty estimation, and physical interpretation of the
-        resulting line properties. Between weekly advisor meetings, I developed the analysis, prepared figures, identified data
+        I am carrying out the core analysis for this project through a fitting model code that I built and developed
+        from scratch. The model itself includes a rigorous Gaussian line fitting model, Monte
+        Carlo error procedure, which will be expanded further to include Hann smoothing, measurable cloud properties, and detailed
+        plotting functions. Between weekly advisor meetings, I developed the analysis, prepared figures, identified data
         issues, asked targeted questions, and converted progress into poster and thesis material.
       </p>
     </section>
@@ -78,13 +82,14 @@
     <section class="two-column">
       <div>
         <p class="section-kicker">Methods</p>
-        <h2>From ALMA data to gas properties.</h2>
+        <h2>Observational ALMA data to gas properties.</h2>
         <ul>
-          <li>Processed and inspected archival ALMA observations of nearby active galaxies.</li>
-          <li>Performed CASA imaging and worked with spectral cubes and continuum images.</li>
+          <li>Uncovered promising galaxy targets with high enough resolution for fainter features.</li>
+          <li>Downloaded the raw observational data and extracted measurement sets with appropriate CASA pipeline versions.</li>
+          <li>Applied phase and amplitude self-calibration and imaged/cleaned spectral cubes.</li>
           <li>Extracted spectra against compact AGN continuum sources.</li>
-          <li>Normalized spectra using continuum-fitting procedures.</li>
-          <li>Modeled faint absorption features with Gaussian fitting routines.</li>
+          <li>Normalized spectra using polynomial continuum-fitting procedures.</li>
+          <li>Modeled faint absorption features with a Gaussian fitting model.</li>
           <li>Estimated integrated opacities, CO column densities, and H<sub>2</sub> column densities.</li>
           <li>Compared line properties across multiple CO transitions where available.</li>
         </ul>
@@ -94,9 +99,9 @@
         <p class="section-kicker">Technical contributions</p>
         <h2>What this project trained.</h2>
         <ul>
-          <li>ALMA imaging and spectral-cube handling.</li>
-          <li>Target-by-target spectral analysis workflows.</li>
-          <li>Monte Carlo uncertainty estimation for fitted line properties.</li>
+          <li>ALMA imaging and spectral-cube cleaning.</li>
+          <li>Target-by-target spectral analysis workflows with Jupyter Notebook.</li>
+          <li>Monte Carlo uncertainty propagation for fitted line parameters.</li>
           <li>Detection and non-detection assessment across heterogeneous datasets.</li>
           <li>Scientific figures, AAS-style tables, posters, and thesis writing.</li>
         </ul>
@@ -104,8 +109,7 @@
     </section>
 
     <section>
-      <p class="section-kicker">Future figures and media</p>
-      <h2>Visual materials to add as the thesis develops.</h2>
+      <p class="section-kicker">Notable figures</p>
       <div class="media-grid">
         <div class="media-placeholder">
           <span>Figure placeholder</span>
@@ -128,12 +132,12 @@
 
     <section>
       <p class="section-kicker">Why it matters</p>
-      <h2>Absorption lines are direct probes of intervening gas.</h2>
+      <h2>Radio absorption lines are direct probes of intervening molecular gas.</h2>
       <p>
         Molecular absorption lines provide a direct method for probing cold gas in front of bright continuum sources.
-        In nearby AGN, this allows the structure and motion of circumnuclear gas to be studied in detail. Long term, this work
-        connects to my broader interest in using absorption-line spectroscopy to study the gas environments of high-redshift
-        quasars and the evolution of massive black holes.
+        In nearby AGN, this allows the properties and dynamics of molecular gas to be studied in detail. Long term, this work
+        connects to my broader interest in using absorption-line spectroscopy to study the gas environments and evolution of high-redshift
+        quasars.
       </p>
     </section>
 
